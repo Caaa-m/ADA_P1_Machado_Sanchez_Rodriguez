@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    string apellidos = "gomezgonzalesmachadorodriguezsanchezsanchez ";
+    string apellidos = "gomezgonzalesmachadorodriguezsanchezsanchez";
 
     long long suma_ascii = 0;
 
