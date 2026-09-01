@@ -75,7 +75,7 @@ static void correrInstancia(const std::string& nombre, const PoliticaBT& pol, in
 
 // ---------- main ----------
 
-int main(int argc, char** argv) {
+int bt_main(int argc, char** argv) {
     if (argc < 2) {
         std::cerr << "Uso:\n"
                   << "  " << argv[0] << " variante --id i|ii|iii|iv|v [--examples K] [--sinpoda] [--maxnodes N] [--stopfirst] [--threads N]\n"

@@ -385,8 +385,4 @@ template<typename OutIter>void hash256(std::ifstream& f, OutIter first, OutIter 
 
 }
 }// namespace picosha2
-<<<<<<< HEAD
 #endif  // PICOSHA2_H
-=======
-#endif  // PICOSHA2_H
->>>>>>> 52c7518d57ec66276ccda6ce1507cc0f7630223c

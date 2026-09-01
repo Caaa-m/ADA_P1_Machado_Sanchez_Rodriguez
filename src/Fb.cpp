@@ -79,7 +79,7 @@ static void imprimirResultado(const Instancia& inst, const ResultadoAtaque& r, i
 
 // ---------- main ----------
 
-int main(int argc, char** argv) {
+int fb_main(int argc, char** argv) {
     if (argc < 2) {
         std::cerr << "Uso:\n"
                   << "  " << argv[0] << " bruteforce --hash <hex> --alphabet a1|a2 --n <len> [--threads N]\n"
