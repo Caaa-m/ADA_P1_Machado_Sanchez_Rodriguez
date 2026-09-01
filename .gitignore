@@ -1,2 +1,7 @@
 verificar_semilla
 generar_instancias_fb
+
+# Binarios compilados
+*.exe
+*.o
+*.out
