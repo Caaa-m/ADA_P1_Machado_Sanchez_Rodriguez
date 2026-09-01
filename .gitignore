@@ -8,3 +8,5 @@ test_herramientas
 *.out
 ada_p1
 results/fb_batch.log
+test_bt
+test_fb
