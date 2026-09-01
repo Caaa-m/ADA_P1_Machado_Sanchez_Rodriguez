@@ -1,0 +1,7 @@
+instancia,n,modo,hilos,minLower,minUpper,minDigit,minSymbol,sinRepetidos,nodesVisited,leavesChecked,validFound,prunedBranches,tiempo_ms,completo
+referencia_n6,6,conpoda,24,2,1,1,1,si,14,5,5,174,0.9373,0
+equipo_i_n8,8,conpoda,24,2,2,3,1,si,50000003,44581041,44581041,323903552,11179.3,0
+equipo_ii_n6,6,conpoda,24,2,2,3,1,si,1,0,0,69,1.2375,1
+equipo_iii_n10,10,conpoda,24,2,2,3,1,si,50000007,44574461,44574461,324354279,7106.25,0
+equipo_iv_relajada_n8,8,conpoda,24,1,0,0,0,si,50000009,49264575,49264575,735354,2449.49,0
+equipo_v_podanula_n6,6,conpoda,24,0,0,0,0,no,50000006,49275280,49275280,0,3371.17,0
