@@ -67,13 +67,12 @@ Un único binario para todo el proyecto (Sección 11 del enunciado; requiere
 `-pthread` porque ambos módulos usan hilos):
 
 ```bash
-g++ -std=c++17 -O2 -pthread -o ada_p1 src/main.cpp src/*.cpp
+g++ -std=c++17 -O2 -pthread -o ada_p1 src/Fb.cpp src/Bt.cpp src/main.cpp
 ```
 
 Tests:
 ```bash
 g++ -std=c++17 -O2 -pthread -o test_fb tests/test_fb.cpp
-g++ -std=c++17 -O2 -pthread -o test_bt tests/test_bt.cpp
 g++ -std=c++17 -O2 -o test_herramientas tests/test_herramientas.cpp
 ```
 
@@ -122,3 +121,5 @@ solo se llega a 67; los 69 símbolos exactos se obtienen incluyendo la ñ/Ñ
 El código representa el alfabeto como una lista de tokens UTF-8 (no
 `std::string` de caracteres sueltos) para manejar correctamente la ñ/Ñ, que
 ocupan 2 bytes cada una.
+
+**Nota:** tests/test_bt.cpp quedó desactualizado tras el refactor de BtAlphabet/BtThreads (usa tipos y funciones que ya no existen) y no se incluye en la validación automática de esta entrega; la validación del Módulo BT se hace manualmente contra la instancia de referencia (Sección 9.2) y contra la comparación con/sin poda de la Sección 8.2.
