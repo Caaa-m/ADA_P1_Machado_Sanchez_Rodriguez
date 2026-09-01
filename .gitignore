@@ -7,3 +7,4 @@ test_herramientas
 *.o
 *.out
 ada_p1
+results/fb_batch.log
