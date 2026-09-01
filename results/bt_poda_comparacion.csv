@@ -1,0 +1,3 @@
+instancia,n,minLower,minUpper,minDigit,minSymbol,modo,nodesVisited,leavesChecked,validFound,prunedBranches,tiempo_ms,completo
+ejemplo_validacion_n3,3,1,1,0,0,conpoda,185344,180792,180792,128745,8.51583,1
+ejemplo_validacion_n3,3,1,1,0,0,sinpoda,333340,328509,180792,0,7.28323,1
